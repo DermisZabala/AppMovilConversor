@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "0Db306hLuSadBoPWqbttQb03gKT0HXeaWSmQLVR9qZCRxhxA9yiZC0vKu1Wy8NohgbNCdmGKIq7UWtZsSBQQqQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP PROBOOK\\OneDrive\\Desktop\\ProyectosXamarin\\Proyecto1\\Proyecto1\\Proyecto1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP PROBOOK\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\HP PROBOOK\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\HP PROBOOK\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\HP PROBOOK\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\HP PROBOOK\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

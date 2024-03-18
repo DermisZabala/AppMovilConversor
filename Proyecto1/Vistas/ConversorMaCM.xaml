@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto1.Vistas.ConversorMaCM"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#1595D3">
+            <Label Text="Conversor de M a CM"
+                   HorizontalOptions="Center"
+                   FontSize="30"
+                   Margin="0,50,0,0"
+                   TextColor="White"
+                   FontAttributes="Bold"/>
+            <StackLayout VerticalOptions="Center"
+                         Margin="15">                
+                <StackLayout>
+                    <Image Source="https://i.ibb.co/DpyMWbL/CINTA.png"
+                           Margin="15,0,0,50"/>
+                    <Frame BackgroundColor="#B1DAEF"
+                           HasShadow="False"
+                           CornerRadius="50">
+                        <Entry Keyboard="Numeric"
+                               Placeholder="Introduce los metros"
+                               PlaceholderColor="WhiteSmoke"
+                               x:Name="proceso"/>
+                    </Frame>
+                    <Button Text="Calcular"
+                            TextTransform="None"
+                            FontAttributes="Bold"
+                            FontSize="Medium"
+                            CornerRadius="12"
+                            Margin="10,5,10,0"
+                            BackgroundColor="#E5F3F9"
+                            x:Name="Calcular"
+                            Clicked="Calcular_Clicked"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Resultado:"
+                               FontSize="Large"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               Margin="0,15,0,0"/>
+                        <Label Text="0.00" 
+                               FontSize="Large"
+                               FontAttributes="Bold"
+                               TextColor="Black"
+                               Margin="0,15,0,0"
+                               x:Name="Resultado"/>
+                    </StackLayout>
+                    <Button Text="Volver"
+                            FontSize="Medium"
+                            CornerRadius="20"
+                            Margin="60,20,60,0"
+                            BackgroundColor="#E5F3F9"
+                            TextTransform="None"
+                            FontAttributes="Bold"
+                            x:Name="btnVolver"
+                            Clicked="btnVolver_Clicked"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

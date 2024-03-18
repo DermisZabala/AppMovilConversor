@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto1.Vistas.Menuprincipal"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#B1DAEF">
+            <Frame VerticalOptions="FillAndExpand"
+                   Margin="10,50,10,50"
+                   CornerRadius="20"
+                   HasShadow="False"
+                   BackgroundColor="White">
+                <StackLayout VerticalOptions="Center"
+                             Spacing="15">
+                    <Label Text="Conversor de unidades"
+                           FontSize="30"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           Margin="0, 0, 0, 130" 
+                           />
+                    <Image Source="https://i.ibb.co/DpyMWbL/CINTA.png" 
+                           Margin="10"/>
+                    
+                    <Button Text="Iniciar"
+                            TextTransform="None"
+                            FontAttributes="Bold"
+                            FontSize="Medium"
+                            CornerRadius="10"
+                            Margin="20,0,20,120"
+                            BackgroundColor="#1595D3"
+                            x:Name="btnPricipal"
+                            Clicked="btnPricipal_Clicked_1"
+                            />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

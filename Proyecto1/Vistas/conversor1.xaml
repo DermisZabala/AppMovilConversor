@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto1.Vistas.conversor1"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>        
+        <Grid BackgroundColor="#1595D3">
+            <Label Text="Conversor de Cm a M"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   FontSize="30"
+                   Margin="0,50,0,0"
+                   TextColor="White"/>
+            <StackLayout VerticalOptions="Center"
+                         Margin="15">
+                <Image Source="https://i.ibb.co/DpyMWbL/CINTA.png"
+                       Margin="15,0,0,50"/>
+                <Frame CornerRadius="50"
+                       BackgroundColor="#B1DAEF"
+                       HasShadow="False">
+                    <Entry Keyboard="Numeric"
+                           Placeholder="Introduce los Cm"
+                           PlaceholderColor="WhiteSmoke"
+                           x:Name="barraNum"/>
+                </Frame>
+                <Button Text="Calcular"
+                        TextTransform="None"
+                        CornerRadius="12"
+                        Margin="10,5,10,0"
+                        BackgroundColor="#E5F3F9"
+                        FontSize="Medium"
+                        FontAttributes="Bold"
+                        x:Name="Proceso"
+                        Clicked="Proceso_Clicked"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Resultado:"
+                           FontSize="Large"
+                           TextColor="Black"
+                           FontAttributes="Bold"
+                           Margin="0,15,0,0"/>
+                    <Label Text="0.00"
+                           FontSize="Large"
+                           FontAttributes="Bold"
+                           Margin="0,15,0,0"
+                           TextColor="Black"
+                           x:Name="Resultado"/>
+                </StackLayout>
+                <Button Text="Volver"
+                        TextTransform="None"
+                        BackgroundColor="#E5F3F9"
+                        Margin="60,20,60,0"
+                        CornerRadius="20"
+                        FontAttributes="Bold"
+                        FontSize="Medium"
+                        x:Name="btncentimetro"
+                        Clicked="btncentimetro_Clicked"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
